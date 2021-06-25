@@ -5,7 +5,7 @@ provider "aws" {
 
 variable "vpcid" {
     type = string
-    default = "vpc-09721efb8603e267c"
+    default =  //  pass here your vpc id 
 }
 
 resource "aws_security_group" "terraform_ec2_sg" {
