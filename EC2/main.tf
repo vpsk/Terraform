@@ -14,7 +14,7 @@ resource "aws_security_group" "terraform_ec2_sg" {
   vpc_id      = "${var.vpcid}"
 
   ingress {
-    description      = "TLS from VPC"
+    description      = "SG from VPC"
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"
